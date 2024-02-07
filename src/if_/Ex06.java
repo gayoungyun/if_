@@ -5,79 +5,47 @@ import java.util.Scanner;
 public class Ex06 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int n1, n2, n3,max;
-		if(n1>n2 && n1>n3) {
-			System.out.println("n1이 가장 크다 ");
+		int n1, n2, n3;
+		System.out.println("수 입력");
+		n1 = input.nextInt();
+		n2 = input.nextInt();
+		if(n1>n2) {
+			System.out.println("n1이 n2보다 크다");
+		}
+		if(n2>n1) {
+			System.out.println("n2이 n1보다 크다");
+		}
+		if(n2 == n1) {
+			System.out.println("같다");
 		}
 		
-		if(n1>n2 &&n1>n3) {
-			System.out.println("n1가장크다");
-			if(n1>n2) {
-				System.out.println("n2그크다");
-				System.out.println("n2그크다");
-			}else {
-				System.out.println("n2그크다");
-				System.out.println("n2그크다");
-			}
-		}
+		System.out.println("====================");
 		
-		String result;
-		if
-		//가장 큰수, 두번째 큰수, 마지막 수
-		if(n1 >n2) {// 중첩if문
-			if(n1>n3) {
-				System.out.println("n1이 가장크다");
-			}else {
-				System.out.println("n3가 가장크다");
-			}
-		}else {
-			System.out.println("n2가 가장크다");
+		System.out.println("세수 입력");
+		n1 = input.nextInt();
+		n2 = input.nextInt();
+		n3 = input.nextInt();
+		int max = 0;
+		if(n1>n2) {
+			max=n1;
 		}
-		if(n1 >n3) {
-			if(n1>n2) {
-				System.out.println("n1이 가장크다");
-			}else {
-				System.out.println("n2가 가장크다");
-			}
-		}else {
-			System.out.println("n3가 가장크다");
+		if(n2>n1) {
+			max=n2;
 		}
-		if(n2 > n1) {
-			if(n2>n3) {
-				System.out.println("n2이 가장크다");
-			}else {
-				System.out.println("n3가 가장크다");
-			}
-		}else {
-			System.out.println("n1가 가장크다");
+		if(n3>max) {
+			max=n3;
 		}
-		if(n2 > n3) {
-			if(n2>n1) {
-				System.out.println("n2이 가장크다");
-			}else {
-				System.out.println("n1가 가장크다");
-			}
-		}else {
-			System.out.println("n3가 가장크다");
+		System.out.println("가장 큰 수 : " +max);
+	
+	if(n1>n2&&n1>n3) {
+		System.out.println("n1이 가장 크다");
 		}
-		if(n3 > n1) {
-			if(n3>n2) {
-				System.out.println("n3이 가장크다");
-			}else {
-				System.out.println("n2가 가장크다");
-			}
-		}else {
-			System.out.println("n1가 가장크다");
+	if(n2>n1&&n2>n3) {
+		System.out.println("n2이 가장 크다");
 		}
-		if(n3 > n2) {
-			if(n3>n1) {
-				System.out.println("n3이 가장크다");
-			}else {
-				System.out.println("n1가 가장크다");
-			}
-		}else {
-			System.out.println("n2가 가장크다");
+	if(n3>n1&&n3>n2) {
+		System.out.println("n3이 가장 크다");
 		}
 	}
-
 }
+	

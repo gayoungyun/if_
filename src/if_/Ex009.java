@@ -13,16 +13,12 @@ public class Ex009 {
 		g3 = input.nextInt();
 		g4 = input.nextInt();
 		g5 = input.nextInt();
-		sum = input.nextInt();
-		if(g1<60 || g2<60 || g3<60 || g4<60 || g5<60) {
+		sum = g1 + g2 +g3 + g4 + g5;
+		
+		if(g1<60 || g2<60 || g3<60 || g4<60 || g5<60 || sum<400) {
 			System.out.println("불합격입니다"); 
 		}else {
 			System.out.println("합격입니다");
-		}
-		if(sum>=400) {
-			System.out.println("합격입니다");
-		}else {
-			System.out.println("불합격입니다");
 		}
 	}
 }

@@ -2,7 +2,7 @@ package if_;
 
 import java.util.Scanner;
 
-public class Te02 {
+public class Te02 { //4조문제
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int kor, eng, mat, ave, sum;// 초기값을 0으로 설정하면 값이 안나온다

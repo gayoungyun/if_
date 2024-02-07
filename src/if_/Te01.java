@@ -2,7 +2,7 @@ package if_;
 
 import java.util.Scanner;
 
-public class Te01 {
+public class Te01 { //1조문제
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num = 0;
