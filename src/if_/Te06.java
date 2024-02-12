@@ -2,25 +2,28 @@ package if_;
 
 import java.util.Scanner;
 
-public class Te06 {
+public class Te06 { //4조문제
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num, num1;
 		String name, name1;
 		
-		System.out.println("이름입력");
+		System.out.println("첫번째 이름, 주사위수");
 		name = input.next();
-		name1 = input.next();
-		System.out.println("주사위 수");
 		num = input.nextInt();
+		
+		System.out.println("두번째 이름, 주사위수");
+		name1 = input.next();
 		num1 = input.nextInt();
 		
-		if(num == num1) 
-			System.out.println("무승부"); 
-		else if(num > num1) {
+		if((1>num)||(num>6)||(1>num1)||(num1>6)) {
+			System.out.println("1~6사이의 수"); 
+		}else if(num > num1) {
 			System.out.println(name+" 님 승리");
+		}else if(num < num1) {
+				System.out.println(name1+" 님 승리");
 		}else {
-				System.out.println(name1+" 님 승리"); 
+				System.out.println("무승부"); 
 			}
 		
 		}

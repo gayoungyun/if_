@@ -2,7 +2,7 @@ package if_;
 
 import java.util.Scanner;
 
-public class Te07 {
+public class Te07 { //3조문제
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int kor, eng, mat, avg, avg1, avg2, sum;
