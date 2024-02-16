@@ -2,7 +2,7 @@ package if_;
 
 import java.util.Scanner;
 
-public class Te05 {
+public class Te05 { //1조문제 //나중에 다시하기
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num, num1, a, b, c, d, e;
@@ -16,6 +16,7 @@ public class Te05 {
 		System.out.println("뺄셈");
 		c = num*num1;
 		System.out.println("곱셈");
+		
 		d = num/num1;
 		System.out.println("나눗셈");
 		e = num%num1;

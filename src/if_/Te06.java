@@ -14,7 +14,7 @@ public class Te06 {
 		System.out.println("주사위 수");
 		num = input.nextInt();
 		num1 = input.nextInt();
-		
+		//주사위 수가 6까지라는 조건이 없음
 		if(num == num1) 
 			System.out.println("무승부"); 
 		else if(num > num1) {
