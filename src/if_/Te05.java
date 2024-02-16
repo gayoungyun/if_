@@ -2,7 +2,11 @@ package if_;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class Te05 { //1조문제 //나중에 다시하기
+=======
+public class Te05 { //1조문제
+>>>>>>> f59a7982fae4ab5d2893df600f441ba399507867
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int num, num1, a, b, c, d, e;

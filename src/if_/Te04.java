@@ -2,7 +2,11 @@ package if_;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class Te04 {//5조문제
+=======
+public class Te04 { //5조문제
+>>>>>>> f59a7982fae4ab5d2893df600f441ba399507867
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int age, mon;
